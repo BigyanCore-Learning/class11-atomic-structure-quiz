@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Atomic Structure CBT | Class XI Chemistry</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<!-- Header -->
+
+<header class="main-header">
+
+    <h1>
+        পরমাণুর গঠন (Atomic Structure)
+    </h1>
+
+    <p>
+        Class XI Chemistry | WBCHSE + NCERT + JEE/NEET Foundation Test
+    </p>
+
+</header>
+
+
+<!-- Student Information Section -->
+
+<section id="student-section" class="card">
+
+    <h2>
+        শিক্ষার্থীর তথ্য (Student Information)
+    </h2>
+
+
+    <label>
+        নাম (Name)
+    </label>
+
+    <input 
+        type="text" 
+        id="studentName"
+        placeholder="আপনার নাম লিখুন">
+
+
+    <label>
+        রোল নম্বর (Roll Number)
+    </label>
+
+    <input 
+        type="text"
+        id="rollNumber"
+        placeholder="রোল নম্বর লিখুন">
+
+
+    <button 
+        id="startExamBtn"
+        class="primary-btn">
+
+        পরীক্ষা শুরু করুন
+        (Start Examination)
+
+    </button>
+
+
+</section>
+
+
+
+<!-- Instructions -->
+
+<section id="instruction-section" class="card hidden">
+
+<h2>
+    পরীক্ষার নির্দেশিকা (Instructions)
+</h2>
+
+
+<ul>
+
+<li>
+মোট প্রশ্ন: 35 টি (Total Questions: 35)
+</li>
+
+
+<li>
+প্রতিটি প্রশ্নের জন্য নির্দিষ্ট সময় রেকর্ড করা হবে।
+(Time spent on each question will be tracked)
+</li>
+
+
+<li>
+প্রয়োজনে Hint Button ব্যবহার করতে পারবেন।
+</li>
+
+
+<li>
+কিছু প্রশ্ন Multiple Correct হতে পারে।
+</li>
+
+
+<li>
+Submit করার পরে ফলাফল পরিবর্তন করা যাবে না।
+</li>
+
+
+<li>
+এই পরীক্ষার ফল শুধুমাত্র এই Quiz-এর পারফরম্যান্সের উপর ভিত্তি করে তৈরি।
+</li>
+
+
+</ul>
+
+
+<button 
+id="beginBtn"
+class="primary-btn">
+
+পরীক্ষা শুরু করুন
+(Start Test)
+
+</button>
+
+
+</section>
+
+
+
+
+<!-- Main Exam Interface -->
+
+
+<section id="exam-section" class="hidden">
+
+
+<div class="exam-topbar">
+
+
+<div>
+
+⏱️ সময় বাকি:
+
+<span id="examTimer">
+00:00
+</span>
+
+</div>
+
+
+<div>
+
+প্রশ্ন:
+
+<span id="questionCounter">
+1 / 35
+</span>
+
+</div>
+
+
+
+<div>
+
+সময়:
+
+<span id="questionTimer">
+00:00
+</span>
+
+</div>
+
+
+</div>
+
+
+
+
+
+<div class="progress-container">
+
+<div id="progressBar">
+
+</div>
+
+</div>
+
+
+
+
+
+
+<div class="exam-layout">
+
+
+<!-- Question Area -->
+
+
+<div class="question-area card">
+
+
+<h3 id="questionNumber">
+
+Question 1
+
+</h3>
+
+
+<p id="questionText">
+
+Question will appear here
+
+</p>
+
+
+
+
+<div id="optionsContainer">
+
+</div>
+
+
+
+
+<button 
+id="hintBtn"
+class="hint-btn">
+
+💡 ইঙ্গিত (Hint)
+
+</button>
+
+
+<div id="hintBox"
+class="hint-box hidden">
+
+</div>
+
+
+
+<div class="navigation-buttons">
+
+
+<button 
+id="previousBtn">
+
+◀ Previous
+
+</button>
+
+
+<button 
+id="markBtn">
+
+⭐ Review
+
+</button>
+
+
+
+<button 
+id="nextBtn">
+
+Next ▶
+
+</button>
+
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+<!-- Question Palette -->
+
+
+<div class="palette card">
+
+
+<h3>
+
+প্রশ্ন তালিকা
+(Question Palette)
+
+</h3>
+
+
+<div id="questionPalette">
+
+</div>
+
+
+<br>
+
+
+<div class="legend">
+
+
+<p>
+🟩 উত্তর দেওয়া
+(Answered)
+</p>
+
+
+<p>
+🟥 উত্তর দেওয়া হয়নি
+(Not Answered)
+</p>
+
+
+<p>
+🟨 Review
+(Marked)
+</p>
+
+
+</div>
+
+
+
+<button
+id="submitBtn"
+class="submit-btn">
+
+পরীক্ষা জমা দিন
+(Submit Test)
+
+</button>
+
+
+</div>
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+<!-- Result Section -->
+
+
+<section 
+id="result-section"
+class="hidden">
+
+
+<div class="card">
+
+
+<h2>
+
+ফলাফল (Result)
+
+</h2>
+
+
+<div id="resultContent">
+
+</div>
+
+
+
+<button 
+onclick="window.print()"
+class="primary-btn">
+
+রিপোর্ট প্রিন্ট করুন
+(Print Report)
+
+</button>
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+<script src="questions.js"></script>
+
+<script src="analytics.js"></script>
+
+<script src="report.js"></script>
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
