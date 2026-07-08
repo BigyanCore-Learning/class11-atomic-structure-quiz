@@ -647,3 +647,303 @@ topic:"Quantum Mechanical Model",
 
 difficulty:"Difficult"
 }
+,
+
+
+{
+question:
+"Principal quantum number (n) কোন তথ্য প্রদান করে?",
+
+options:[
+"A. Orbital orientation",
+"B. Main energy level",
+"C. Electron spin",
+"D. Orbital shape only"
+],
+
+answer:["B"],
+
+type:"single",
+
+hint:
+"n = 1,2,3... শক্তিস্তরের সঙ্গে সম্পর্কিত।",
+
+explanation:
+"Principal quantum number প্রধান শক্তিস্তর, shell এবং electron-এর গড় দূরত্ব নির্দেশ করে।",
+
+topic:"Quantum Numbers",
+
+difficulty:"Easy"
+},
+
+
+{
+question:
+"যদি n = 4 হয়, তবে orbital quantum number (l)-এর সম্ভাব্য মানগুলি কী?",
+
+options:[
+"A. 0,1,2",
+"B. 1,2,3",
+"C. 0,1,2,3",
+"D. 0,1,2,3,4"
+],
+
+answer:["C"],
+
+type:"single",
+
+hint:
+"l-এর মান 0 থেকে (n-1) পর্যন্ত হয়।",
+
+explanation:
+"n=4 হলে l = 0,1,2,3 হতে পারে।",
+
+topic:"Quantum Numbers",
+
+difficulty:"Moderate"
+},
+
+
+{
+question:
+"n=3 shell সম্পর্কে কোন বক্তব্যগুলি সঠিক?",
+
+options:[
+"A. মোট 9টি orbital থাকে",
+"B. সর্বোচ্চ 18টি electron থাকতে পারে",
+"C. 3s, 3p, 3d subshell থাকে",
+"D. সর্বোচ্চ 8টি electron থাকে"
+],
+
+answer:["A","B","C"],
+
+type:"multiple",
+
+hint:
+"Number of orbitals = n² এবং maximum electrons = 2n²",
+
+explanation:
+"n=3 এর জন্য orbital সংখ্যা 9 এবং maximum electron সংখ্যা 18।",
+
+topic:"Quantum Numbers",
+
+difficulty:"Difficult"
+},
+
+
+{
+question:
+"কোন orbital-এর আকৃতি dumbbell-এর মতো?",
+
+options:[
+"A. s",
+"B. p",
+"C. d",
+"D. f"
+],
+
+answer:["B"],
+
+type:"single",
+
+hint:
+"p orbital-এ দুটি lobe থাকে।",
+
+explanation:
+"p orbital সাধারণত dumbbell-shaped।",
+
+topic:"Shapes of Orbitals",
+
+difficulty:"Easy"
+},
+
+
+{
+question:
+"1s orbital-এ radial node-এর সংখ্যা কত?",
+
+options:[
+"A. 0",
+"B. 1",
+"C. 2",
+"D. 3"
+],
+
+answer:["A"],
+
+type:"single",
+
+hint:
+"Radial node = n-l-1",
+
+explanation:
+"1s-এর ক্ষেত্রে n=1 এবং l=0, তাই node = 1-0-1 = 0।",
+
+topic:"Radial Distribution",
+
+difficulty:"Moderate"
+},
+
+
+{
+question:
+"4p orbital-এ radial node সংখ্যা কত?",
+
+options:[
+"A. 0",
+"B. 1",
+"C. 2",
+"D. 3"
+],
+
+answer:["C"],
+
+type:"single",
+
+hint:
+"n=4 এবং p orbital-এর জন্য l=1",
+
+explanation:
+"Radial node = n-l-1 = 4-1-1 = 2",
+
+topic:"Radial Distribution",
+
+difficulty:"JEE"
+},
+
+
+{
+question:
+"Pauli exclusion principle অনুযায়ী কোন বক্তব্য সঠিক?",
+
+options:[
+"A. একই orbital-এ সর্বোচ্চ দুইটি electron থাকতে পারে",
+"B. একই orbital-এর electron-এর spin বিপরীত হয়",
+"C. দুটি electron-এর চারটি quantum number একই হতে পারে",
+"D. একই atom-এর দুটি electron-এর চারটি quantum number কখনও একই নয়"
+],
+
+answer:["A","B","D"],
+
+type:"multiple",
+
+hint:
+"চারটি quantum number মনে করো।",
+
+explanation:
+"একই atom-এর কোনো দুটি electron-এর চারটি quantum number এক হতে পারে না।",
+
+topic:"Pauli Principle",
+
+difficulty:"Moderate"
+},
+
+
+{
+question:
+"Nitrogen (Z=7)-এর 2p orbital-এ electron arrangement কেমন হবে?",
+
+options:[
+"A. ↑↓ ↑ □",
+"B. ↑ ↑ ↑",
+"C. ↑↓ ↑↓ □",
+"D. ↑↓ ↑↓ ↑"
+],
+
+answer:["B"],
+
+type:"single",
+
+hint:
+"Hund's rule: প্রথমে একাকী electron বসে।",
+
+explanation:
+"Nitrogen-এর configuration 1s² 2s² 2p³। তিনটি p orbital-এ parallel spin-এ electron থাকে।",
+
+topic:"Hund Rule",
+
+difficulty:"Moderate"
+},
+
+
+{
+question:
+"Chromium (Cr, Z=24)-এর সঠিক electronic configuration কোনটি?",
+
+options:[
+"A. [Ar]3d⁴4s²",
+"B. [Ar]3d⁵4s¹",
+"C. [Ar]3d⁶4s⁰",
+"D. [Ar]3d³4s³"
+],
+
+answer:["B"],
+
+type:"single",
+
+hint:
+"Half-filled d orbital-এর extra stability মনে করো।",
+
+explanation:
+"Cr-এর configuration ব্যতিক্রমী: [Ar]3d⁵4s¹",
+
+topic:"Electron Configuration",
+
+difficulty:"Difficult"
+},
+
+
+{
+question:
+"নিচের কোন configuration বেশি স্থিতিশীল?",
+
+options:[
+"A. d⁵",
+"B. d⁴",
+"C. p³",
+"D. p²"
+],
+
+answer:["A","C"],
+
+type:"multiple",
+
+hint:
+"Half-filled subshell বেশি stable হয়।",
+
+explanation:
+"d⁵ এবং p³ half-filled configuration হওয়ায় বিশেষ স্থায়িত্ব লাভ করে।",
+
+topic:"Stability of Orbitals",
+
+difficulty:"JEE"
+},
+
+
+{
+question:
+"Fe³⁺ (Z=26)-এর electronic configuration কোনটি?",
+
+options:[
+"A. [Ar]3d⁶",
+"B. [Ar]3d⁵",
+"C. [Ar]3d⁴4s¹",
+"D. [Ar]4s²"
+],
+
+answer:["B"],
+
+type:"single",
+
+hint:
+"Fe থেকে প্রথমে 4s electron অপসারণ হয়।",
+
+explanation:
+"Fe = [Ar]3d⁶4s²। Fe³⁺ তৈরি হলে 3টি electron বের হয় → [Ar]3d⁵",
+
+topic:"Electronic Configuration of Ions",
+
+difficulty:"Difficult"
+}
+
+];
